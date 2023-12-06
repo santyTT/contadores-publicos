@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Rios Backend</title>
+    <link rel="icon" href="IMGS/logo-head.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="/BACKEND/menu.js"></script>
+    <script src="/BACKEND/scroll_up.js"></script>
+
+<body>
+    <div class="loader-section">
+        <span class="loader"></span>
+    </div>
+    <script>
+        function pageLoaded() {
+            let loaderSection = document.querySelector('.loader-section'); loaderSection.classList.add('loaded');
+        }
+
+        document.onload = pageLoaded();</script>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <img src="IMGS/logo-web.png" alt="" class="logo-img" data-aos="fade-right" data-aos-delay="700">
+                </div>
+                <ul class="menu">
+                    <li data-aos="fade-up" data-aos-delay="100"><a href="#inicio" class="active">Inicio</a></li>
+                    <li data-aos="fade-up" data-aos-delay="200"><a href="#quiensoy">¿Quienes Somos?</a></li>
+                    <li data-aos="fade-up" data-aos-delay="300"><a href="#servicios">Servicios</a></li>
+                    <li data-aos="fade-up" data-aos-delay="400"><a href="#portafolio">Portafolio</a></li>
+                    <li data-aos="fade-up" data-aos-delay="500"><a href="#portafolio">Contactanos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main" id="Inicio">
+            <div class="info-content">
+                <h1>Nosotros Somos<span class="typed">Contadores</span>Publicos</h1>
+                <p class="info_inicio">Somos una firma de profesionales
+                    en el área contable y tributaria con
+                    amplio reconocimiento a nivel
+                    nacional con más de 10 años de
+                    experiencia aportando soluciones
+                    y credibilidad en la información de
+                    nuestros clientes.</p>
+            </div>
+        </main>
+    </div>
+    <div class="portfolio" id="servicios">
+        <div class="portfolio-heading">
+            <h2>Servicios</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container">
+            <div class="card" data-aos="flip-left" data-aos-delay="100">
+                <div class="card__img">
+                </div>
+                <div class="card__title">
+                    <h2>ASESORÍA CONTABLES</h2>
+                </div>
+                <div class="card__proyect-links">
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-globe-asia"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button bottom-mas">
+                        <a href="#">+Informacion... </a>
+                    </button>
+                </div>
+            </div>
+            <div class="card" data-aos="flip-left" data-aos-delay="200">
+                <div class="card__img2">
+                </div>
+                <div class="card__title">
+                    <h2>ASESORÍA <br> LEGAL</h2>
+                </div>
+                <div class="card__proyect-links">
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-globe-asia"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button  bottom-mas" class="bottom2">
+                        <a href="#">+Informacion...</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card" data-aos="flip-left" data-aos-delay="300">
+                <div class="card__img3">
+                </div>
+                <div class="card__title">
+                    <h2>ASESORÍA LABORAL</h2>
+                </div>
+                <div class="card__proyect-links">
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-globe-asia"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button bottom-mas">
+                        <a href="#">+Informacion...</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card" data-aos="flip-left" data-aos-delay="400">
+                <div class="card__img4">
+                </div>
+                <div class="card__title">
+                    <h2>ASESORÍA Y
+                        CUMPLIMIENTOS
+                    </h2>
+                </div>
+                <div class="card__proyect-links">
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-globe-asia"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button bottom-mas">
+                        <a href="#asesoria">+Informacion...</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <img src="IMGS/img_servicios2.png" alt="">
+        <div class="about-info">
+
+            <h2>Asesoria Legal</h2>
+            <div class="divider"></div>
+            <p>Constitución de Sociedades. <br>
+                <br>
+                Asesoría en la Elaboración, Revisión y
+                Negociación de Contratos.<br>
+                <br>
+                Asesoría en Derecho: Corporativo y
+                Comercial.<br>
+                <br>
+                Fusiones, Adquisiciones y Escisiones
+                Estructuración legal.
+                </h2>
+
+            <h2>Asesoria Contable</h2>
+            <div class="divider"></div>
+            <p class="p-about2">Tercerización de procesos contables. <br>
+                <br>
+                Preparación o emisión de estados <br>
+                <br>
+                financieros anuales e intermedios. <br>
+                <br>
+                NIIF - IFRS. <br>
+                <br>
+                Conversión de estados financieros a
+                USGAAP - IFRS. <br>
+                <br>
+                Reportes a entidades de control. <br>
+                <br>
+                Reportes financieros para toma de
+                decisiones. <br>
+                <br>
+                Reconciliaciones contables. <br>
+                <br>
+                Consultoría contable.
+            </p>
+
+            <h2>Asesoría Laboral</h2>
+            <div class="divider"></div>
+            <p class="p-about3">Consultoría en asuntos relacionados con
+                derecho laboral individual y colectivo. <br>
+                <br>
+                Acompañamiento en procesos de
+                fiscalización iniciados por la UGPP. <br>
+                <br>
+                Litigios laborales. Trámites ante
+                autoridades administrativas.
+            </p>
+
+            <h2 id="asesoria">Asesoría y cumplimientos
+                tributarios</h2>
+            <div class="divider"></div>
+            <p class="p-about3"> <span class="style-list">Consultoría Tributaria.</span> <br>
+                <br>
+                <span class="style-list">Outsourcing de Cumplimiento Tributario.</span><br>
+                <br>
+                <span class="style-list">Elaboración de Declaraciones Tributarias.</span><br>
+                <br>
+                <span class="style-list">Preparación de Información Tributaria en Medios
+                    Magnéticos.<br>
+                    <br>
+                    <span class="style-list">Declaraciones de Renta Personas Jurídicas y/o
+                        Naturales.</span><br>
+                    <br>
+                    <span class="style-list">Efectos de IFRS en Declaraciones Tributarias.</span><br>
+                    <br>
+                    <span class="style-list">Consultoría en Impuestos Internacionales.</span><br>
+                    <br>
+                    <span class="style-list">Devoluciones de Saldos a Favor.</span><br>
+                    <br>
+                    <span class="style-list">Consultoría Personas Naturales.</span><br>
+                    <br>
+                    <span class="style-list">Optimización del Modelo Tributario.</span><br>
+                    <br>
+                    <span class="style-list">Planeación Tributaria.</span><br>
+            </p>
+
+            <button class="bottom-mas">Read more</button>
+        </div>
+    </div>
+    <div class="contact-section">
+
+        <div class="signupFrm">
+            <div class="descripcion-div">
+                <h2>
+                    </p>
+            </div>
+
+            <form action="https://formsubmit.co/santiprocastellar7@gmail.com" method="POST" class="form"
+                data-aos="zoom-in" data-aos-delay="200">
+                <h1 class="title">Contactanos</h1>
+                <div class="inputContainer">
+                    <input type="text" class="input" placeholder="a">
+                    <label for="" class="label">Username</label>
+                </div>
+                <div class="inputContainer">
+                    <input type="text" class="input" placeholder="a">
+                    <label type="email" name="email" class="label">Email</label>
+                </div>
+
+                <div class="inputContainer">
+                    <input type="text" class="input" placeholder="a">
+                    <label for="" class="label">Numero</label>
+                </div>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" class="submitBtn" value="Enviar">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <img src="IMGS/logo-web.png" alt="" class="footer_img">
+
+
+    </footer>
+    <img src="IMGS/datos_footer.png" alt="" class="footer_img2">
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="menu.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"><img src="IMGS/up.png" alt="" class="img-up"></i>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        window.onscroll = function () {
+            console.log(document.documentElement.scrollTop);
+            if (document.documentElement.scrollTop > 100) {
+                document.querySelector('.go-top-container').classList.add('show');
+
+            }
+            else {
+                document.querySelector('.go-top-container').classList.remove('show');
+            }
+        }
+
+        document.querySelector('.go-top-container').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+
+
+<script>
+
+;
+</script>
+</body>
+
+</head>
